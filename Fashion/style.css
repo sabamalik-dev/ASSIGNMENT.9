@@ -1,0 +1,60 @@
+
+.second{
+    position: relative;
+    bottom: 230px;
+    left: 320px
+ }
+ .container{
+   /* justify-content:flex-start;*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+    height: 300px;
+    display: inline;
+ justify-content: space-between;
+ 
+ }
+ .items{
+    text-align: center;
+    width: 20px;
+ }
+ .door{
+    display: flex;
+    justify-content:flex-start;
+    gap: 23px;
+    align-items: flex-start;
+    margin: 2px;
+ }
+ tr,td{
+    padding: 25px;
+ }
+ .label{
+    font-size: 20px;
+    font-weight:800px;
+    position: relative;
+    top: 0px;
+    left: 200px;
+ }
+ button{
+    position: relative;
+    top: 0px;
+    left: 50px;
+ }
+ button{
+      background: linear-gradient(to right,red,green);
+ }
+ body{
+   background: linear-gradient(to right,skyblue, red);
+   
+ }
+ .link{
+   color:  #6f42c1;
+ }
+ .good{
+   color: green
+ }
+ .give{
+   opacity: .5;
+ }
+ 
